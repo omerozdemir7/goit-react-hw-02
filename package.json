@@ -11,6 +11,7 @@
   "deploy": "gh-pages -d dist -b gh-pages",
   "update": "npm run build:gh && npm run deploy && git add . && git commit -m \"update\" && git push"
 }
+
 ,
   "dependencies": {
     "react": "^19.2.0",
